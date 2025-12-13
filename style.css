@@ -21,3 +21,19 @@ h1 {
 h2 {
   color: #00ff99;
 }
+
+//penambahan
+.progress {
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.progress-bar {
+  height: 20px;
+  width: 96%;
+  background: linear-gradient(90deg, #00ff99, #00ccff);
+  transition: width 0.5s ease;
+}
