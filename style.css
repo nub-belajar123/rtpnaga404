@@ -37,3 +37,25 @@ h2 {
   background: linear-gradient(90deg, #00ff99, #00ccff);
   transition: width 0.5s ease;
 }
+
+.rtp-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.rtp-table th,
+.rtp-table td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+.rtp-table th {
+  background-color: #222;
+}
+
+.rtp-table tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
